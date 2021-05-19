@@ -1178,3 +1178,4 @@ restaurant_promotion.items_total.help: This allows you to apply a discount above
   of the discount. This will <strong>not diminish</strong> the fees perceived
   by the platform.
 adminDashboard.metrics.title: Metrics
+order.adjustment_type.reusable_packaging.loopeat: LoopEat processing fee

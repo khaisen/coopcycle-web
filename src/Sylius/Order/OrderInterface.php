@@ -210,4 +210,8 @@ interface OrderInterface extends
     public function getPickupAddress(): ?Address;
 
     public function getFulfillmentMethodObject(): ?FulfillmentMethod;
+
+    public function isLoopeat(): bool;
+
+    public function getTipAmount();
 }

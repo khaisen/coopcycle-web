@@ -1172,3 +1172,4 @@ restaurant_promotion.items_total.help: Cela vous permet d'appliquer une réducti
   Cela ne <strong>diminuera pas</strong> les frais perçus par
   la plate-forme.
 restaurant_promotion.items_total: À partir d'un montant d'achats
+order.adjustment_type.reusable_packaging.loopeat: Frais de traitement LoopEat

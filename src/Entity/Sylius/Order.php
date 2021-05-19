@@ -1246,4 +1246,14 @@ class Order extends BaseOrder implements OrderInterface
 
         return null !== $this->getRestaurant()->getEdenredMerchantId();
     }
+
+    public function isLoopeat(): bool
+    {
+        if (!$this->hasVendor() || $this->isMultiVendor() || !$this->isReusablePackagingEnabled()) {
+
+            return false;
+        }
+
+        return $this->getRestaurant()->isLoopeatEnabled();
+    }
 }
