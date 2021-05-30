@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ -f "/data/$OSRM_FILENAME" ]; then
     osrm-routed --algorithm mld /data/$OSRM_FILENAME
